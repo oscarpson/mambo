@@ -1,12 +1,12 @@
 # MamboTest
-Just flask test 
+This project enable user to login to sysstem and their details are added to sqlite database
 
 # Usage
 
-Not yet
+enable user to log in to system
 
 ## Installation
-*	Clone politico-api from `https://github.com/oscarpson/Politico-Api.git`
+*	Clone politico-api from `https://github.com/oscarpson/mambo.git`
 *	Install api requirements from requirements file in root directory by running `pip install -r requirements.txt`
  
 # run the app
@@ -18,8 +18,8 @@ Not yet
 # Features and endpoints 
 
 
-###	Get all parties
-* `api/v1/parties` using `GET` verb 
+###	login
+* `api/v1/login` using `GET` verb 
 
 
 # Acknowledgment
