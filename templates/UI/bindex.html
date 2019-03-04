@@ -1,0 +1,35 @@
+<html>
+
+<link rel="stylesheet" type=text/css href="{{ url_for('static', filename='styles.css') }}"></link>
+
+<body>
+<ul>
+ <li><a class="active" >Mambo</a>
+  <li><a class="active" href="#user">User</a>
+   
+ 
+  <li style="float:right"><a href="#logout">Logout</a></li>
+</ul>
+<form id="signin" class="borderedbox">
+<h2>ogin </h2>
+  <div class="insheight">  
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username"  name="uname" required class="Username">
+  </div >
+  <div class="insheight">  
+    <label for="uname"><b>email</b></label>
+    <input type="text"  placeholder="Enter ID number" name="idno" required class="Username">
+  </div >
+   
+    <div class="duobuttons insheight">
+    <div class="btnlogin" id="btnreg"><strong style='color:white'> <input type="submit" value="Login"></strong></div>
+   <div class="btnregister" ><a href="signin.html"><strong style='color:white'>register</strong></a></div>
+   
+   
+  </div>
+  
+</form>
+<span class="borderedbox">= <span id="result"></span></span>
+{% block script %}{% endblock %}
+</body>
+</html>
